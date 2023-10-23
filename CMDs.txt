@@ -1,0 +1,61 @@
+
+
+
+C:\Users\user\AppData\Local\Programs\Python\Python39\python.exe -m venv Venv
+G: && G:\GPT\OpenAI && Venv\Scripts\activate
+
+
+
+(Venv) G:\GPT\OpenAI>python ChatGPT -t "difference between bard and chatgpt"
+(Venv) G:\GPT\OpenAI>python ChatGPT -i 1
+(Venv) G:\GPT\OpenAI>python ChatGPT -i 0 
+(Venv) G:\GPT\OpenAI>python ChatGPT
+
+
+(Venv) G:\GPT\OpenAI>python
+Python 3.9.10 (tags/v3.9.10:f2f3f53, Jan 17 2022, 15:14:21) [MSC v.1929 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>exit()
+
+
+
+
+
+
+pip install openai
+pip install pandas
+pip install numpy
+pip install python-dotenv
+pip install ipykernel
+
+
+
+
+https://platform.openai.com/
+anajiprojects@gmail.com
+
+https://platform.openai.com/docs/introduction
+
+
+Tokenizer
+Learn about language model tokenization
+https://platform.openai.com/tokenizer
+
+
+https://youtu.be/CbpsDMwFG2g?t=1959
+
+https://www.youtube.com/watch?v=zRdzLfoTwvQ
+
+https://platform.openai.com/docs/guides/gpt/function-calling
+
+https://victoria.dev/blog/how-to-send-long-text-input-to-chatgpt-using-the-openai-api/
+
+_____________________________________________________________________________________________
+https://github.com/openai/tiktoken
+>>> import tiktoken
+>>> enc = tiktoken.get_encoding("cl100k_base")
+>>> enc.encode("hello world")
+[15339, 1917]
+>>> enc.decode(enc.encode("hello world"))
+'hello world'
+_____________________________________________________________________________________________

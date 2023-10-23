@@ -1,0 +1,5 @@
+OpenAI's large language models (sometimes referred to as GPT's) process text using tokens, which are common sequences of characters found in a set of text. The models learn to understand the statistical relationships between these tokens, and excel at producing the next token in a sequence of tokens.
+
+You can use the tool below to understand how a piece of text might be tokenized by a language model, and the total count of tokens in that piece of text.
+
+It's important to note that the exact tokenization process varies between models. This tool was built for early GPT-3 models and will not be accurate for newer models but can still be a useful when learning about how language models work.
